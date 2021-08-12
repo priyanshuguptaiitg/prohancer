@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SET ALARM</title>
+  <link rel="stylesheet" href="3reminder.css" />
+</head>
+
+<body>
+  <h1>SET REMINDER</h1>
+  <div id="saved"></div>
+  <div id="time-input">
+    <h2>Set time and reminder <br> & leave the rest to us</h2>
+    <input type="text" value="00" class="time-picker" id="hour" />
+    <p id="time-picker-colon">:</p>
+    <input type="text" value="00" class="time-picker" id="minutes" />
+    <input type="radio" name="radSize" id="am" class="am-pm" value="am" checked="checked" />
+    <label for="am-pm">AM</label>
+    <input type="radio" name="radSize" id="pm" class="am-pm" value="pm" />
+    <label for="am-pm">PM</label>
+  </div>
+  <br />
+  <textarea placeholder="What should we remind you ?" id="note"></textarea><br><br>
+  <input type="button" id="create-reminder" value="Create a new reminder" />
+  <input type="button" id="clear" value="Clear all previous reminders" />
+  <div class="logo">
+    <a href="index.html"><img src="1home.png" /></a>
+    <a href="2stopwatch.html"><img src="2stopwatch.png" /></a>
+    <a href="3reminder.html"><img src="3reminder.png" /></a>
+    <a href="4tasks.html"><img src="4tasks.png" /></a>
+    <a href="5blocker.html"><img src="5blocker.png" /></a>
+  </div>
+  <script src="3reminder.js"></script>
+</body>
+
+</html>

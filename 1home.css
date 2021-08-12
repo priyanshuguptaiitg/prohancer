@@ -1,0 +1,63 @@
+body {
+  background: #464646 url(background_2.jpg) no-repeat fixed center center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.05em;
+  font-size: 30px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+img {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  padding-top: 104px;
+}
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+#minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+#second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}

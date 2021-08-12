@@ -1,0 +1,76 @@
+body {
+  background: #464646 url(background_2.jpg) no-repeat fixed center center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+}
+.major {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 5px;
+}
+h1 {
+  font-size: 40px;
+  border-bottom: 4px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.05em;
+}
+
+#hours,
+#minutes,
+#seconds {
+  width: 65px;
+}
+
+#start,
+#pause,
+#reset,
+#resume {
+  display: grid;
+  margin: 4px;
+}
+.inline {
+  display: flex;
+}
+#pause,
+#resume {
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 117px;
+}
+img {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+.para {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.settime {
+  margin: 0;
+  padding: 0;
+}
+#start,
+#pause,
+#reset,
+#resume {
+  background-color: yellow;
+  border-color: yellow;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+#start:hover,
+#pause:hover,
+#reset:hover,
+#resume:hover {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+}

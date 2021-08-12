@@ -1,0 +1,68 @@
+body {
+  background: #464646 url(background_2.jpg) no-repeat fixed center center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+img {
+  padding-top: 77px;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: black;
+  font-size: 50px;
+}
+h2 {
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: black;
+  font-size: 20px;
+}
+#clear,
+#create-reminder {
+  background-color: yellow;
+  border-color: yellow;
+  font-weight: bolder;
+  border-radius: 30px;
+  float: inline-end;
+}
+#clear:hover,
+#create-reminder:hover {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  border-width: 3px;
+}
+button {
+  width: 140px;
+  height: 30px;
+}
+
+.time-picker {
+  width: 20px;
+  display: inline-block;
+  align-items: center;
+}
+
+#time-picker-colon {
+  display: inline-block;
+  font-size: 20px;
+  bottom: 1px;
+  position: relative;
+}
+
+#note {
+  height: 70px;
+  width: 370px;
+}

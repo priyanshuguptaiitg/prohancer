@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="2stopwatch.css">
+  <title>STOPWATCH</title>
+</head>
+
+<body>
+  <h1>STOPWATCH</h1>
+  <div class="major">
+    <p class="para">TIME REMAINING IN ALARM: </p>
+    <input id="display" type="text" placeholder="00:00:00">
+    <div class="setTime">
+      <p class="para">ENTER THE TIME: </p><br>
+      <input id="hours" max="99" min="00" type="number" placeholder="hours">
+      <input id="minutes" max="59" min="00" type="number" placeholder="minutes">
+      <input id="seconds" max="59" min="00" type="number" placeholder="seconds">
+    </div class="three_buttons"><br>
+    <button id="start" type="button">Start now</button>
+    <div class="inline">
+      <button id="pause" type="button">Pause time</button>
+      <button id="resume" type="button">Resume time </button>
+    </div>
+    <button id="reset" type="button">Reset now</button> <br>
+    <p id="countdown"></p>
+  </div>
+  <div class="logo">
+    <a href="index.html"><img src="1home.png" /></a>
+    <a href="2stopwatch.html"><img src="2stopwatch.png" /></a>
+    <a href="3reminder.html"><img src="3reminder.png" /></a>
+    <a href="4tasks.html"><img src="4tasks.png" /></a>
+    <a href="5blocker.html"><img src="5blocker.png" /></a>
+  </div>
+  <script src="2stopwatch.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+body {
+  background: #464646 url(background_2.jpg) no-repeat fixed center center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin: 103px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  border-bottom: 4px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  letter-spacing: 0.05em;
+}
+p {
+  font-size: 20px;
+  border-bottom: 4px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.05em;
+}
