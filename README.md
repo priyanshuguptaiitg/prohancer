@@ -38,7 +38,7 @@ HTML, CSS & JavaScript with these listed API :
 
 ## Demo
 
-Demo of the Extension : [Click Here](#)
+Demo of the Extension : [Click Here](https://youtu.be/uDuxJi5MLzg)
 
 ## Contributions and Feedback
 
