@@ -1,7 +1,7 @@
 # Prohancer : Productivity Enhancer
 
 **Prohancer** is a simple Chrome extension that manages your time and enhances your productivity.
-Quick view can be seen at https://priyanshuguptaiitg.github.io/prohancer/ but it's recommended to use chrome extension.
+Quick view can be seen at  http://pgupta.me/prohancer/ but it's recommended to use chrome extension.
 Steps to use this extension :
 1. Download zip file and extract the folder.
 2. Visit chrome://extensions/ and click on load unpacked. (Make sure to turn on the developer option in top right corner).
